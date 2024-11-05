@@ -1,6 +1,6 @@
 from playwright.sync_api import Page
 
-from tests.Locators.registration import Registration
+from tests.locators.registration import Registration
 from tests.pages.base import Base
 from tests.tests.enums import REGISTRATION_URL, EMPTY_FIELD_ALERT, RED, SHORT_PASSWORD_ALERT
 

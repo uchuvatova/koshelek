@@ -13,4 +13,5 @@
 Открыть проект в Pycharm  
 Через терминал Pycharm установить зависимости: python3 -m pip install -r requirements.txt  
 После установки зависимостей через терминал Pycharm установить драйверы браузеров: playwright install  
-Запустить тесты командой python -m pytest -v --reruns 2 tests.  
+Запустить тесты в терминале командой python -m pytest -v tests.  
+Запустить отчет Allure в терминале командой allure serve.  
